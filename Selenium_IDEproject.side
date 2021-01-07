@@ -1,0 +1,1643 @@
+{
+  "id": "78d47dec-a60a-4f25-9dc9-46debb20193a",
+  "version": "2.0",
+  "name": "Sprint2",
+  "url": "https://www.ebay.com",
+  "tests": [{
+    "id": "fe0d8094-6501-4f31-af90-863b934e5670",
+    "name": "ContinueWithGoogle",
+    "commands": [{
+      "id": "3efdb221-355a-4bab-bea7-c7ad867e6dab",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "618cbeeb-8661-42a2-a5df-64d888670c6f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e312acdc-755c-40f2-9baf-9fd2540c199d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=#gh-ug > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//span[@id='gh-ug']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&ru=https%3A%2F%2Fwww.ebay.com%2F')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fd45cd5-70eb-4549-ba70-3e148f3f84fe",
+      "comment": "",
+      "command": "click",
+      "target": "id=switch-account-anchor",
+      "targets": [
+        ["id=switch-account-anchor", "id"],
+        ["linkText=Switch account", "linkText"],
+        ["css=#switch-account-anchor", "css:finder"],
+        ["xpath=//a[contains(text(),'Switch account')]", "xpath:link"],
+        ["xpath=//a[@id='switch-account-anchor']", "xpath:attributes"],
+        ["xpath=//span[@id='switch-account-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[5]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Switch account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd329e35-fe5e-4019-bed2-0c4081e39518",
+      "comment": "",
+      "command": "click",
+      "target": "id=signin_ggl_btn",
+      "targets": [
+        ["id=signin_ggl_btn", "id"],
+        ["css=#signin_ggl_btn", "css:finder"],
+        ["xpath=//button[@id='signin_ggl_btn']", "xpath:attributes"],
+        ["xpath=//form[@id='signin-form']/div[3]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue with Google')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6",
+      "windowTimeout": 2000
+    }, {
+      "id": "11c75b95-3e66-4411-8286-bd0383e52d0b",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71a4da24-6a28-4118-9818-aede961c81bb",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d680512-8ae8-436c-a4f2-6e5fd6c1d215",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b804c29-7317-4712-a3a3-7e923ca1ba8d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd135c14-dfb1-414a-9b84-bbec2bdb7f8e",
+      "comment": "",
+      "command": "click",
+      "target": "id=signin_ggl_btn",
+      "targets": [
+        ["id=signin_ggl_btn", "id"],
+        ["css=#signin_ggl_btn", "css:finder"],
+        ["xpath=//button[@id='signin_ggl_btn']", "xpath:attributes"],
+        ["xpath=//form[@id='signin-form']/div[3]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue with Google')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9792",
+      "windowTimeout": 2000
+    }, {
+      "id": "e018b6a0-8781-4915-b68f-7a86e90b03b3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9792}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d3e36ad-700d-4c8f-8655-f719ce644be2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4829812-5153-42b3-b807-fc7c0ad67e67",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2c17b0b-0e8d-4ba6-9eab-e263bf30a476",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gh-eb-arw:nth-child(2)",
+      "targets": [
+        ["css=.gh-eb-arw:nth-child(2)", "css:finder"],
+        ["xpath=//button[@id='gh-ug']/b[2]", "xpath:idRelative"],
+        ["xpath=//b[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51b770c4-d08d-48cb-aaaf-6447949b6232",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gh-eb-arw:nth-child(2)",
+      "targets": [
+        ["css=.gh-eb-arw:nth-child(2)", "css:finder"],
+        ["xpath=//button[@id='gh-ug']/b[2]", "xpath:idRelative"],
+        ["xpath=//b[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6121654e-48fe-46c9-b330-2d15c1a09cda",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign out",
+      "targets": [
+        ["linkText=Sign out", "linkText"],
+        ["css=#gh-uo > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign out')]", "xpath:link"],
+        ["xpath=//li[@id='gh-uo']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&lgout=1')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e73451e8-3a95-44a1-ad6a-a0595dab9a22",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5bd32cb2-e3b8-489f-a761-2403e8466eab",
+    "name": "Successfully enter 'username or email'",
+    "commands": [{
+      "id": "65c7f2a6-faf7-4170-99db-5ce8197dffe5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae6f1a13-a60a-44c5-aaf1-c9866a0c6f15",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e80e0bcb-fb64-4146-968e-fcaa2bddba5e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=gh-ug",
+      "targets": [
+        ["id=gh-ug", "id"],
+        ["css=#gh-ug", "css:finder"],
+        ["xpath=//button[@id='gh-ug']", "xpath:attributes"],
+        ["xpath=//li[@id='gh-eb-u']/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hi Rashmi!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a18b6ce3-00b3-4b2c-ba56-f33927e15d58",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=gh-ug",
+      "targets": [
+        ["id=gh-ug", "id"],
+        ["css=#gh-ug", "css:finder"],
+        ["xpath=//button[@id='gh-ug']", "xpath:attributes"],
+        ["xpath=//li[@id='gh-eb-u']/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hi Rashmi!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a959db11-42c1-4870-b21d-ae8e0f92aeb1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gh-eb-arw:nth-child(2)",
+      "targets": [
+        ["css=.gh-eb-arw:nth-child(2)", "css:finder"],
+        ["xpath=//button[@id='gh-ug']/b[2]", "xpath:idRelative"],
+        ["xpath=//b[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a3abf35-7082-48fd-b1f4-08599f0761ed",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign out",
+      "targets": [
+        ["linkText=Sign out", "linkText"],
+        ["css=#gh-uo > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign out')]", "xpath:link"],
+        ["xpath=//li[@id='gh-uo']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&lgout=1')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5d68118-ce7e-4cba-8bc8-474456813783",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=#gh-ug > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//span[@id='gh-ug']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&ru=')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ff98005-f8e9-499a-9279-2913b6d8c26f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=#gh-ug > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//span[@id='gh-ug']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&ru=')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f42d36ea-0b4b-4bc2-9b60-fecae6b83e2a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=#gh-ug > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//span[@id='gh-ug']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&ru=')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5590a7f3-7d40-4cca-85c2-881a4862d9b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=switch-account-anchor",
+      "targets": [
+        ["id=switch-account-anchor", "id"],
+        ["linkText=Switch account", "linkText"],
+        ["css=#switch-account-anchor", "css:finder"],
+        ["xpath=//a[contains(text(),'Switch account')]", "xpath:link"],
+        ["xpath=//a[@id='switch-account-anchor']", "xpath:attributes"],
+        ["xpath=//span[@id='switch-account-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[5]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Switch account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da7cb4a7-6388-4ff4-adea-11f47850aef9",
+      "comment": "",
+      "command": "click",
+      "target": "id=userid",
+      "targets": [
+        ["id=userid", "id"],
+        ["name=userid", "name"],
+        ["css=#userid", "css:finder"],
+        ["xpath=//input[@id='userid']", "xpath:attributes"],
+        ["xpath=//form[@id='signin-form']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f6dd460-098d-46cd-9a19-c4ef4d825121",
+      "comment": "",
+      "command": "type",
+      "target": "id=userid",
+      "targets": [
+        ["id=userid", "id"],
+        ["name=userid", "name"],
+        ["css=#userid", "css:finder"],
+        ["xpath=//input[@id='userid']", "xpath:attributes"],
+        ["xpath=//form[@id='signin-form']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "a"
+    }, {
+      "id": "2d8b7d7d-b6ef-41a1-8de2-b2b86426c1ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=signin-continue-btn",
+      "targets": [
+        ["id=signin-continue-btn", "id"],
+        ["name=signin-continue-btn", "name"],
+        ["css=#signin-continue-btn", "css:finder"],
+        ["xpath=//button[@id='signin-continue-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='signin-form']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51f9a29c-1f94-4438-b39c-e2d2213ca8b0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "43c0748b-6f2d-4e66-862b-7207cd77f0c1",
+    "name": "unsuccessfully signing in",
+    "commands": [{
+      "id": "8d4c75ac-c009-4626-8fa8-352ecd9233e5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f02a9334-0b93-4193-b583-ca28e83c82ac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51076903-70b8-4069-8767-fbc078cd4559",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=#gh-ug > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//span[@id='gh-ug']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&ru=https%3A%2F%2Fwww.ebay.com%2F')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea9b5432-4982-4efb-9f05-b7d17e793a03",
+      "comment": "",
+      "command": "click",
+      "target": "id=switch-account-anchor",
+      "targets": [
+        ["id=switch-account-anchor", "id"],
+        ["linkText=Switch account", "linkText"],
+        ["css=#switch-account-anchor", "css:finder"],
+        ["xpath=//a[contains(text(),'Switch account')]", "xpath:link"],
+        ["xpath=//a[@id='switch-account-anchor']", "xpath:attributes"],
+        ["xpath=//span[@id='switch-account-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[5]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Switch account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6f02962-db5c-4bb3-88c8-c8558e855869",
+      "comment": "",
+      "command": "click",
+      "target": "id=userid",
+      "targets": [
+        ["id=userid", "id"],
+        ["name=userid", "name"],
+        ["css=#userid", "css:finder"],
+        ["xpath=//input[@id='userid']", "xpath:attributes"],
+        ["xpath=//form[@id='signin-form']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f15508a-031c-4e4b-9d40-b55c8f4c9b5d",
+      "comment": "",
+      "command": "type",
+      "target": "id=userid",
+      "targets": [
+        ["id=userid", "id"],
+        ["name=userid", "name"],
+        ["css=#userid", "css:finder"],
+        ["xpath=//input[@id='userid']", "xpath:attributes"],
+        ["xpath=//form[@id='signin-form']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "asdf@a.in"
+    }, {
+      "id": "56e9330d-a363-4721-bfd8-605e9170f33d",
+      "comment": "",
+      "command": "click",
+      "target": "id=signin-continue-btn",
+      "targets": [
+        ["id=signin-continue-btn", "id"],
+        ["name=signin-continue-btn", "name"],
+        ["css=#signin-continue-btn", "css:finder"],
+        ["xpath=//button[@id='signin-continue-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='signin-form']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acb8f232-bea0-4634-85b4-17071776dc3a",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=pass", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='signin-form']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "as1234"
+    }, {
+      "id": "0847d41b-c88d-4d26-8e59-342f31ea6182",
+      "comment": "",
+      "command": "click",
+      "target": "id=sgnBt",
+      "targets": [
+        ["id=sgnBt", "id"],
+        ["name=sgnBt", "name"],
+        ["css=#sgnBt", "css:finder"],
+        ["xpath=//button[@id='sgnBt']", "xpath:attributes"],
+        ["xpath=//form[@id='signin-form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1e11940-4e4a-4b83-b172-adc252e651cc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=gh-ug",
+      "targets": [
+        ["id=gh-ug", "id"],
+        ["css=#gh-ug", "css:finder"],
+        ["xpath=//button[@id='gh-ug']", "xpath:attributes"],
+        ["xpath=//li[@id='gh-eb-u']/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hi asdf!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "958003c8-4fd8-4c8b-a75a-4a0c23750bb0",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-ug",
+      "targets": [
+        ["id=gh-ug", "id"],
+        ["css=#gh-ug", "css:finder"],
+        ["xpath=//button[@id='gh-ug']", "xpath:attributes"],
+        ["xpath=//li[@id='gh-eb-u']/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hi asdf!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca7c5999-5a95-4c5f-8f39-5fdb851754cb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=gh-ug",
+      "targets": [
+        ["id=gh-ug", "id"],
+        ["css=#gh-ug", "css:finder"],
+        ["xpath=//button[@id='gh-ug']", "xpath:attributes"],
+        ["xpath=//li[@id='gh-eb-u']/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hi asdf!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5607dc9-f51e-43e2-9abe-14e1f16dfaa8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#gh-ug > b:nth-child(1)",
+      "targets": [
+        ["css=#gh-ug > b:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='gh-ug']/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'asdf')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0905847c-b894-4f1d-808f-aff6a1c5dafd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#gh-ug > b:nth-child(1)",
+      "targets": [
+        ["css=#gh-ug > b:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='gh-ug']/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'asdf')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebfeead7-ed83-408d-bf15-889c4a39d735",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign out",
+      "targets": [
+        ["linkText=Sign out", "linkText"],
+        ["css=#gh-uo > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign out')]", "xpath:link"],
+        ["xpath=//li[@id='gh-uo']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&lgout=1')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0003f593-faa2-449f-840d-f00c58e30ced",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=gh-shop-a",
+      "targets": [
+        ["id=gh-shop-a", "id"],
+        ["css=#gh-shop-a", "css:finder"],
+        ["xpath=//button[@id='gh-shop-a']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-shop']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Shop by category')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47c82011-a263-4390-9fb8-fa19127072da",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "703bd1b4-e92e-4450-a304-d584efaed61b",
+    "name": "Check Buy option is available",
+    "commands": [{
+      "id": "e7eb8ce4-66a8-4754-82de-c15961ad0522",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3da11c6b-e49e-4c35-811a-2468cddcaeb9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e72b248d-5f44-421b-88d7-f156d9e11c00",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Electronics, Cars, Fashion, Collectibles & More | eBay",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7d884f3-29f0-47f3-917d-619eba4d84f4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,167)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11ccf703-96e7-40b0-bf94-c0a5280d768a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Buy",
+      "targets": [
+        ["linkText=Buy", "linkText"],
+        ["css=td:nth-child(1) .gf-bttl > .gf-bttl", "css:finder"],
+        ["xpath=(//a[contains(text(),'Buy')])[2]", "xpath:link"],
+        ["xpath=//div[@id='gf-BIG']/table/tbody/tr/td/ul/li/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.ebay.com/n/all-categories')])[3]", "xpath:href"],
+        ["xpath=//li/h3/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcf00faf-a588-46dd-9680-8297efceeb91",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Shop by Category | eBay",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55c99034-4e04-42ea-ae00-c3f8a0f89dc6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7f017eaa-357b-4a79-9242-7feba2bd77f3",
+    "name": "Selecting the Buy option",
+    "commands": [{
+      "id": "6f59b143-eed1-4f51-9e6f-5b92d65cae3c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30fd3cdf-5cd7-481d-a553-f4db96384f67",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fa25c02-a0e1-4d0d-86ba-80b43df52f7c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,333)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0edace7c-60a4-4401-a6f5-f057ae27a5e0",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Electronics, Cars, Fashion, Collectibles & More | eBay",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99aee258-6f7a-46a2-bc1e-a96c63c2ff23",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Buy",
+      "targets": [
+        ["linkText=Buy", "linkText"],
+        ["css=td:nth-child(1) .gf-bttl > .gf-bttl", "css:finder"],
+        ["xpath=(//a[contains(text(),'Buy')])[2]", "xpath:link"],
+        ["xpath=//div[@id='gf-BIG']/table/tbody/tr/td/ul/li/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.ebay.com/n/all-categories')])[3]", "xpath:href"],
+        ["xpath=//li/h3/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ce096d0-6353-4fe9-ac2c-c2192331451a",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Shop by Category | eBay",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "503dc4fe-2eb7-4361-a1cf-e04b997e35ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-shop-ei",
+      "targets": [
+        ["id=gh-shop-ei", "id"],
+        ["css=#gh-shop-ei", "css:finder"],
+        ["xpath=//i[@id='gh-shop-ei']", "xpath:attributes"],
+        ["xpath=//button[@id='gh-shop-a']/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53a82946-5bde-4568-948f-dbcd75da0b46",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Women",
+      "targets": [
+        ["linkText=Women", "linkText"],
+        ["css=td:nth-child(2) > ul:nth-child(2) > li:nth-child(1) > .scnd", "css:finder"],
+        ["xpath=//a[contains(text(),'Women')]", "xpath:link"],
+        ["xpath=//table[@id='gh-sbc']/tbody/tr/td[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ebay.com/b/Womens-Clothing/15724/bn_661783')]", "xpath:href"],
+        ["xpath=//td[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Women')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f259670-f465-4e20-ae20-085da1c6d22d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,167)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f161c99-fb5c-40a4-a619-2cab1edad453",
+      "comment": "",
+      "command": "click",
+      "target": "css=#s0-27-9-0-1\\[0\\]-0-1\\[0\\]-0-xCarousel-x-carousel-items li:nth-child(2) .b-img",
+      "targets": [
+        ["css=#s0-27-9-0-1\\[0\\]-0-1\\[0\\]-0-xCarousel-x-carousel-items li:nth-child(2) .b-img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ebayimg.com/images/g/uPkAAOSwaDde7xmX/s-l500.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='s0-27-9-0-1[0]-0-1[0]-0-xCarousel-x-carousel-items']/ul/li[2]/a/div/img", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ac0e1eb-6d95-4148-8e70-91854facfeb9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1117691b-2e9b-4b44-b013-dc04b626de3a",
+    "name": "Writing the product name for buy",
+    "commands": [{
+      "id": "f020bedf-8b6b-4516-87fc-3d856d661d5e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dbc4be1-a0f5-4ed7-849a-d8bef16b9482",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3301b3da-3dfb-437d-9fd0-cc05c3851f9c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Fashion",
+      "targets": [
+        ["linkText=Fashion", "linkText"],
+        ["css=.hl-cat-nav__js-tab:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Fashion')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mainContent']/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.ebay.com/b/Fashion/bn_7000259856')])[2]", "xpath:href"],
+        ["xpath=//div[5]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65c710bf-fe8a-4e6c-8820-f1ec3d86818d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d634499c-09a0-418b-9a46-d3800b869af5",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Electronics, Cars, Fashion, Collectibles & More | eBay",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "469647f1-ff60-4e6b-b9e1-9b50ef2873bf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Buy",
+      "targets": [
+        ["linkText=Buy", "linkText"],
+        ["css=td:nth-child(1) .gf-bttl > .gf-bttl", "css:finder"],
+        ["xpath=(//a[contains(text(),'Buy')])[2]", "xpath:link"],
+        ["xpath=//div[@id='gf-BIG']/table/tbody/tr/td/ul/li/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.ebay.com/n/all-categories')])[3]", "xpath:href"],
+        ["xpath=//li/h3/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d14b24d-1c8e-4f4b-ab7a-21798f2f921a",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Shop by Category | eBay",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cabe2247-36e9-4359-9cfc-b185ca786dd0",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-ac",
+      "targets": [
+        ["id=gh-ac", "id"],
+        ["name=_nkw", "name"],
+        ["css=#gh-ac", "css:finder"],
+        ["xpath=//input[@id='gh-ac']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-ac-box2']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc516c6a-d7fd-459b-896e-418e02b28863",
+      "comment": "",
+      "command": "type",
+      "target": "id=gh-ac",
+      "targets": [
+        ["id=gh-ac", "id"],
+        ["name=_nkw", "name"],
+        ["css=#gh-ac", "css:finder"],
+        ["xpath=//input[@id='gh-ac']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-ac-box2']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "books"
+    }, {
+      "id": "f975bf85-c3e5-41cf-9373-586c70cbf9e0",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-btn",
+      "targets": [
+        ["id=gh-btn", "id"],
+        ["css=#gh-btn", "css:finder"],
+        ["xpath=//input[@id='gh-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='gh-f']/table/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1287c950-fb5f-4f95-a162-bd632219c0e6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,167)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d626d869-fbda-4d30-adf7-e017848dfa7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s-item:nth-child(2) .s-item__image-img",
+      "targets": [
+        ["css=.s-item:nth-child(2) .s-item__image-img", "css:finder"],
+        ["xpath=//img[@alt='NEW A Christmas Carol Deluxe Slipcase Gift Edition Hardcover Charles Dickens']", "xpath:img"],
+        ["xpath=//div[@id='srp-river-results']/ul/li/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30afc94d-7322-449d-97d3-6ec519630b73",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "186cac13-f09d-4f37-b83c-e9824317581c",
+    "name": "Check Sell option is available",
+    "commands": [{
+      "id": "5ecb8afb-fb84-4535-a52b-bd2a0ac48e44",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "841bd046-6db7-4ea1-bc8c-f91cdffd253d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "087537dc-7843-4e5c-a29d-ec1bbae9290d",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Electronics, Cars, Fashion, Collectibles & More | eBay",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed66229c-24b5-49ee-b315-7bab070ab56a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sell",
+      "targets": [
+        ["linkText=Sell", "linkText"],
+        ["css=#gh-p-2 > .gh-p", "css:finder"],
+        ["xpath=//a[contains(text(),'Sell')]", "xpath:link"],
+        ["xpath=//li[@id='gh-p-2']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ebay.com/sl/sell')]", "xpath:href"],
+        ["xpath=//div/ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sell')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39c0d8e7-1db3-449d-96c1-5bde1f34be16",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Selling on eBay | Electronics, Fashion, Home & Garden | eBay",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ed8477a-936a-4952-a7df-c042ac8a3d22",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "01e3e87a-395f-4923-b669-34bc55ef798d",
+    "name": "Selecting the sell option",
+    "commands": [{
+      "id": "ba37971b-0322-445a-bf66-d5dc448f1300",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c09593d0-9e42-4e02-8451-635b484e4cb6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84aad44a-3021-48c8-99dc-7e9fbd03d378",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Electronics, Cars, Fashion, Collectibles & More | eBay",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0eedc070-b674-4cc1-a5f0-820d57fb1158",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sell",
+      "targets": [
+        ["linkText=Sell", "linkText"],
+        ["css=#gh-p-2 > .gh-p", "css:finder"],
+        ["xpath=//a[contains(text(),'Sell')]", "xpath:link"],
+        ["xpath=//li[@id='gh-p-2']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ebay.com/sl/sell')]", "xpath:href"],
+        ["xpath=//div/ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sell')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "695bfde5-52e9-4452-81e7-f79d569ad4c2",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Selling on eBay | Electronics, Fashion, Home & Garden | eBay",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "431e794c-a288-4cc2-b609-5b15f7fc4bb6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=List an item",
+      "targets": [
+        ["linkText=List an item", "linkText"],
+        ["css=.ui-invitation__btnwrapper > .fake-btn", "css:finder"],
+        ["xpath=//a[@type='button']", "xpath:attributes"],
+        ["xpath=//section[@id='TOPINVITATION']/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sl/prelist/suggest')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'List an item')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fca39f00-d445-47ac-9645-40ed14f5129b",
+      "comment": "",
+      "command": "click",
+      "target": "id=s0-0-0-24-13-keyword-box-input-textbox",
+      "targets": [
+        ["id=s0-0-0-24-13-keyword-box-input-textbox", "id"],
+        ["css=#s0-0-0-24-13-keyword-box-input-textbox", "css:finder"],
+        ["xpath=//input[@id='s0-0-0-24-13-keyword-box-input-textbox']", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0efa0bd-70d2-4082-abfb-d58ef4e5021f",
+      "comment": "",
+      "command": "type",
+      "target": "id=s0-0-0-24-13-keyword-box-input-textbox",
+      "targets": [
+        ["id=s0-0-0-24-13-keyword-box-input-textbox", "id"],
+        ["css=#s0-0-0-24-13-keyword-box-input-textbox", "css:finder"],
+        ["xpath=//input[@id='s0-0-0-24-13-keyword-box-input-textbox']", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "books"
+    }, {
+      "id": "176e1c80-41fe-4b50-8df5-df23b672d1c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#option-0 .item-button__keyword",
+      "targets": [
+        ["css=#option-0 .item-button__keyword", "css:finder"],
+        ["xpath=//div[@id='option-0']/button/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'helf')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88385a1c-67fb-4dc2-a2ee-72f2d1e5520a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.keyword-suggestion__button",
+      "targets": [
+        ["css=.keyword-suggestion__button", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//main/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Go')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b7a563d-3aaa-42ce-b63f-9dac154931df",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sell one like this",
+      "targets": [
+        ["linkText=Sell one like this", "linkText"],
+        ["css=#w0-COMPOSER-card\\[0\\] .flexcard__cta--nav", "css:finder"],
+        ["xpath=//a[contains(text(),'Sell one like this')]", "xpath:link"],
+        ["xpath=//div[@id='w0-COMPOSER-card[0]']/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javacript:;')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sell one like this')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61648e40-636f-47f5-bbb7-cfb1be4d15ef",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,167)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42211551-9cb3-4f75-ab41-761939874e7f",
+      "comment": "",
+      "command": "click",
+      "target": "id=Condition0",
+      "targets": [
+        ["id=Condition0", "id"],
+        ["name=Condition", "name"],
+        ["css=#Condition0", "css:finder"],
+        ["xpath=//input[@id='Condition0']", "xpath:attributes"],
+        ["xpath=//div[@id='w0-COMPOSER-conditionPanel-_sm_asc-nm__radioGroup-radio_0_0']/span/input", "xpath:idRelative"],
+        ["xpath=//a/div/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c79b8e9c-cf0b-4065-8e58-3a396df97414",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7b25201a-ebbe-4b94-ae3a-214117972b1a",
+    "name": "Check Dailydeals button",
+    "commands": [{
+      "id": "cbc4a9c0-7096-4e6a-a500-c198f7e83fd1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1d2dce3-b403-4023-80a2-057ef76536c8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7833ab3-0b61-4302-b4e5-b0b676eeb7bb",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Electronics, Cars, Fashion, Collectibles & More | eBay",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "347861d4-e993-4066-b0ce-52da2723d224",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Daily Deals",
+      "targets": [
+        ["linkText=Daily Deals", "linkText"],
+        ["css=#gh-p-1 > .gh-p", "css:finder"],
+        ["xpath=//a[contains(text(),'Daily Deals')]", "xpath:link"],
+        ["xpath=//li[@id='gh-p-1']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ebay.com/deals')]", "xpath:href"],
+        ["xpath=//div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Daily Deals')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd43c647-46d7-4c23-b125-d12933cdf559",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Daily Deals on eBay | Best deals and Free Shipping",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96fca08e-c0b0-41a4-807a-836be1e664dd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d247b330-7bb7-46fa-986b-0647ca48a0b0",
+    "name": "Search type of product in search box in daily deals",
+    "commands": [{
+      "id": "877e52fc-2add-4039-86e7-2703e2b16efe",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bbb2155-6006-4fa1-9c45-91b058e68744",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "846cd1e4-a306-4398-8fed-81bc4e646e19",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Electronics, Cars, Fashion, Collectibles & More | eBay",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45b70028-c37f-4674-8b54-adf2e4a6212c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Daily Deals",
+      "targets": [
+        ["linkText=Daily Deals", "linkText"],
+        ["css=#gh-p-1 > .gh-p", "css:finder"],
+        ["xpath=//a[contains(text(),'Daily Deals')]", "xpath:link"],
+        ["xpath=//li[@id='gh-p-1']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ebay.com/deals')]", "xpath:href"],
+        ["xpath=//div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Daily Deals')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1528e85-a516-40f6-b9e9-2ba808d6bd50",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Daily Deals on eBay | Best deals and Free Shipping",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28ef31b5-dfec-4cc4-acf0-83d4e46eebec",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-ac",
+      "targets": [
+        ["id=gh-ac", "id"],
+        ["name=_nkw", "name"],
+        ["css=#gh-ac", "css:finder"],
+        ["xpath=//input[@id='gh-ac']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-ac-box2']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c020124-7cdc-438a-8cb1-8cf13b661de8",
+      "comment": "",
+      "command": "type",
+      "target": "id=gh-ac",
+      "targets": [
+        ["id=gh-ac", "id"],
+        ["name=_nkw", "name"],
+        ["css=#gh-ac", "css:finder"],
+        ["xpath=//input[@id='gh-ac']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-ac-box2']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "laptop"
+    }, {
+      "id": "56a50c2a-2f2b-44a1-b145-864ca96affb9",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-btn",
+      "targets": [
+        ["id=gh-btn", "id"],
+        ["css=#gh-btn", "css:finder"],
+        ["xpath=//input[@id='gh-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='gh-f']/table/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c9f085b-7242-4042-85d7-5f170164b005",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,167)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "599253c7-1331-4378-8e40-8b1748daa416",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,167)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "558762d0-62f9-4aba-8fc9-b4693876304c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#spokeResultSet > .item-grid-spoke .col:nth-child(1) img",
+      "targets": [
+        ["css=#spokeResultSet > .item-grid-spoke .col:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Dell XPS 13 7390 13.4 in (256GB SSD, Intel Core i5 10th Gen., 3.60 GHz, 8GB)']", "xpath:img"],
+        ["xpath=//div[@id='spokeResultSet']/div/div/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1d6a68f-70c5-4535-96e1-e5172fca9df0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,167)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1a2d97d-0d9e-4d52-8714-67959784ff47",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84fafc80-440e-4dbd-9011-b3dd57813e19",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "581630c9-19e6-4ece-86ac-c3bf75d3889a",
+    "name": "Selecting the Daily deals",
+    "commands": [{
+      "id": "8c6b875e-2f45-4707-9469-2c81328058d8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf50cead-089e-4b99-a698-5d7d81c334f4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7b08281-072d-4e35-b493-260e941b0c77",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Electronics, Cars, Fashion, Collectibles & More | eBay",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31da46a3-f341-4c6d-a5a6-c92514ef7d7f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Daily Deals",
+      "targets": [
+        ["linkText=Daily Deals", "linkText"],
+        ["css=#gh-p-1 > .gh-p", "css:finder"],
+        ["xpath=//a[contains(text(),'Daily Deals')]", "xpath:link"],
+        ["xpath=//li[@id='gh-p-1']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ebay.com/deals')]", "xpath:href"],
+        ["xpath=//div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Daily Deals')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e98fa98-8331-4fe8-883c-b5b599871c8f",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Daily Deals on eBay | Best deals and Free Shipping",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f71616b6-0685-4fc8-b550-bf8c24a6c8d1",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-shop-ei",
+      "targets": [
+        ["id=gh-shop-ei", "id"],
+        ["css=#gh-shop-ei", "css:finder"],
+        ["xpath=//i[@id='gh-shop-ei']", "xpath:attributes"],
+        ["xpath=//button[@id='gh-shop-a']/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b677948-7ed9-497c-9913-d842e7557a91",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Women",
+      "targets": [
+        ["linkText=Women", "linkText"],
+        ["css=td:nth-child(2) > ul:nth-child(2) > li:nth-child(1) > .scnd", "css:finder"],
+        ["xpath=//a[contains(text(),'Women')]", "xpath:link"],
+        ["xpath=//table[@id='gh-sbc']/tbody/tr/td[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ebay.com/b/Womens-Clothing/15724/bn_661783')]", "xpath:href"],
+        ["xpath=//td[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Women')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4da6ab44-aca4-405f-8e3b-8f8f852080b5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "26e00ba2-e544-4e92-96e7-9599e3f6f003",
+    "name": "Check Help & contact option is available",
+    "commands": [{
+      "id": "a9e26b83-86cf-48b1-a237-a782cf1f8928",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb0cb2ff-8822-4b73-a0be-362a6b4dea11",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f0a2d18-e4ab-460c-91dc-5baba7fbfaca",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Electronics, Cars, Fashion, Collectibles & More | eBay",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8e8c50d-ea4f-44fe-b894-24e02b7c633d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Help & Contact",
+      "targets": [
+        ["linkText=Help & Contact", "linkText"],
+        ["css=#gh-p-3 > .gh-p", "css:finder"],
+        ["xpath=//a[contains(text(),'Help & Contact')]", "xpath:link"],
+        ["xpath=//li[@id='gh-p-3']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://ocsnext.ebay.com/ocs/home')]", "xpath:href"],
+        ["xpath=//div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Help & Contact')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37f54503-2a6d-469f-bd59-5bd2156b3e14",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eBay Customer Service",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff9fc4b9-fec5-4b07-ab24-a6685c9d879e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7add904e-1d0a-4b31-9dd1-7f86e7027028",
+    "name": "Writing query for help and contact",
+    "commands": [{
+      "id": "9df7aa05-ab8d-4043-a032-689d208eebf9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90efcb35-2f6b-4df2-82fc-ff504a38d915",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d4f6f04-b09a-4409-8609-83378dc1e9e3",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Electronics, Cars, Fashion, Collectibles & More | eBay",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3a6745f-b48c-4848-8895-be292a9d497c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Help & Contact",
+      "targets": [
+        ["linkText=Help & Contact", "linkText"],
+        ["css=#gh-p-3 > .gh-p", "css:finder"],
+        ["xpath=//a[contains(text(),'Help & Contact')]", "xpath:link"],
+        ["xpath=//li[@id='gh-p-3']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://ocsnext.ebay.com/ocs/home')]", "xpath:href"],
+        ["xpath=//div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Help & Contact')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b8ba55c-d295-4de0-90bb-bf06b96482de",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eBay Customer Service",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af7a212c-da20-4ba1-bec2-c74f7adbff6f",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_input_element",
+      "targets": [
+        ["id=search_input_element", "id"],
+        ["css=#search_input_element", "css:finder"],
+        ["xpath=//input[@id='search_input_element']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div/div/div[3]/div/div/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e93c35b1-e340-46ca-98cf-bbdb0062efb9",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_input_element",
+      "targets": [
+        ["id=search_input_element", "id"],
+        ["css=#search_input_element", "css:finder"],
+        ["xpath=//input[@id='search_input_element']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div/div/div[3]/div/div/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "buy"
+    }, {
+      "id": "a852ff3e-dd85-4355-bdff-438d074ebbe3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(2) .description",
+      "targets": [
+        ["css=.item:nth-child(2) .description", "css:finder"],
+        ["xpath=//div[@id='search_suggestions_lists']/a/span/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad30ed6e-dbc1-4dcb-901b-a68715702ab4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5cb80f06-8943-49c3-a8ea-9a226ee0cc60",
+    "name": "selecting query in Help & Contact",
+    "commands": [{
+      "id": "45023207-6025-4de7-a842-65bb7a3f9042",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ae158e6-0cb6-46bf-844b-425178f9eedf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e7efcc8-11a1-466f-b4d6-fc13b1754882",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Electronics, Cars, Fashion, Collectibles & More | eBay",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "470589e1-8aba-4a2b-92bc-5fc34091774f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Help & Contact",
+      "targets": [
+        ["linkText=Help & Contact", "linkText"],
+        ["css=#gh-p-3 > .gh-p", "css:finder"],
+        ["xpath=//a[contains(text(),'Help & Contact')]", "xpath:link"],
+        ["xpath=//li[@id='gh-p-3']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://ocsnext.ebay.com/ocs/home')]", "xpath:href"],
+        ["xpath=//div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Help & Contact')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e8d4402-95bc-477b-bb35-153fabea3aba",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "eBay Customer Service",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f10977f7-8cca-47ac-9e29-4c732d7a45df",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,139)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48233c93-4a9a-4c13-9680-11b5537b424a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,264)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be88ab9b-f807-49d3-af6c-28055804797d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#popular_solution_1 > .caption",
+      "targets": [
+        ["css=#popular_solution_1 > .caption", "css:finder"],
+        ["xpath=//a[@id='popular_solution_1']/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9aaffc66-956c-4526-94e2-83ee9451c467",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6b391d02-94b5-45ed-9e80-1f7de429f402",
+    "name": "ContinueWithGoogle",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fe0d8094-6501-4f31-af90-863b934e5670"]
+  }, {
+    "id": "28619d73-f661-401b-bfd6-c2adb1da2dfd",
+    "name": "Signing in",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5bd32cb2-e3b8-489f-a761-2403e8466eab", "43c0748b-6f2d-4e66-862b-7207cd77f0c1"]
+  }, {
+    "id": "d815b0dd-d963-4360-a58a-2077c2fcc3aa",
+    "name": "Buy option",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7f017eaa-357b-4a79-9242-7feba2bd77f3", "703bd1b4-e92e-4450-a304-d584efaed61b", "1117691b-2e9b-4b44-b013-dc04b626de3a"]
+  }, {
+    "id": "9196b171-ba1a-4cb8-8cbe-e8cc61d61922",
+    "name": "Sell option",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["186cac13-f09d-4f37-b83c-e9824317581c", "01e3e87a-395f-4923-b669-34bc55ef798d"]
+  }, {
+    "id": "4a01076f-f8be-49b3-8aee-03201cf28c99",
+    "name": "Daily deals",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["581630c9-19e6-4ece-86ac-c3bf75d3889a", "7b25201a-ebbe-4b94-ae3a-214117972b1a", "d247b330-7bb7-46fa-986b-0647ca48a0b0"]
+  }, {
+    "id": "581dbd87-d47c-420a-a9c0-2050ee70d8d7",
+    "name": "Help and contact",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["26e00ba2-e544-4e92-96e7-9599e3f6f003", "7add904e-1d0a-4b31-9dd1-7f86e7027028", "5cb80f06-8943-49c3-a8ea-9a226ee0cc60"]
+  }],
+  "urls": ["https://www.ebay.com/"],
+  "plugins": []
+}
