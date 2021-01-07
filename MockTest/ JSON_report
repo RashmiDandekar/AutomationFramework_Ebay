@@ -1,0 +1,882 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 57045750500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user loads the browser and user open the webpage",
+            "match": {
+              "location": "StepDefinition.user_loads_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "verify title",
+        "description": "",
+        "id": "registration-for-online-cooking-school;verify-title",
+        "after": [
+          {
+            "result": {
+              "duration": 2420650800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 66273600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify title",
+            "match": {
+              "location": "StepDefinition.verify_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6448300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Print the title in console",
+            "match": {
+              "location": "StepDefinition.print_the_title_in_console()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1070304700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on the hyperlink",
+            "match": {
+              "location": "StepDefinition.click_on_the_hyperlink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 194357300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify the text “Recipe class Brochure is sent to your registered mail id”",
+            "match": {
+              "location": "StepDefinition.verify_the_text_recipe_class_brochure_is_sent_to_your_registered_mail_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7075500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Print the title in console",
+            "match": {
+              "location": "StepDefinition.print_the_title_in_console()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107542300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Go back to the previous page",
+            "match": {
+              "location": "StepDefinition.go_back_to_the_previous_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6316900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Print the title in console",
+            "match": {
+              "location": "StepDefinition.print_the_title_in_console()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19778670500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user loads the browser and user open the webpage",
+            "match": {
+              "location": "StepDefinition.user_loads_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Empty first name",
+        "description": "",
+        "id": "registration-for-online-cooking-school;empty-first-name",
+        "after": [
+          {
+            "result": {
+              "duration": 5499078500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 829251700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user give null first name",
+            "match": {
+              "location": "StepDefinition.user_give_null_first_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4508931800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks last name",
+            "match": {
+              "location": "StepDefinition.user_clicks_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9404600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "alert box pops",
+            "match": {
+              "location": "StepDefinition.alert_box_pops()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10187200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Print the Alert message on console",
+            "match": {
+              "location": "StepDefinition.print_the_alert_message_on_console()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 720478800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Handle the Alert",
+            "match": {
+              "location": "StepDefinition.handle_the_alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1525987300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks first name",
+            "match": {
+              "location": "StepDefinition.user_clicks_first_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4204700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "alert box pops",
+            "match": {
+              "location": "StepDefinition.alert_box_pops()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12448200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Print the Alert message on console",
+            "match": {
+              "location": "StepDefinition.print_the_alert_message_on_console()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14042900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Handle the Alert",
+            "match": {
+              "location": "StepDefinition.handle_the_alert()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19718942700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user loads the browser and user open the webpage",
+            "match": {
+              "location": "StepDefinition.user_loads_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "enter details",
+        "description": "",
+        "id": "registration-for-online-cooking-school;enter-details",
+        "after": [
+          {
+            "result": {
+              "duration": 1538349700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 840276700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user enters first name",
+            "match": {
+              "location": "StepDefinition.user_enters_first_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99778700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user enters last name",
+            "match": {
+              "location": "StepDefinition.user_enters_last_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 101593100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "enters valid email",
+            "match": {
+              "location": "StepDefinition.enters_valid_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121753500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "enter mobile no as characters",
+            "match": {
+              "location": "StepDefinition.enter_mobile_no_as_characters()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85426800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "clicks on category",
+            "match": {
+              "location": "StepDefinition.clicks_on_category()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3851300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "alert box pops",
+            "match": {
+              "location": "StepDefinition.alert_box_pops()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18582900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Print the Alert message on console",
+            "match": {
+              "location": "StepDefinition.print_the_alert_message_on_console()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24669200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Handle the Alert",
+            "match": {
+              "location": "StepDefinition.handle_the_alert()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9753111300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user loads the browser and user open the webpage",
+            "match": {
+              "location": "StepDefinition.user_loads_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Enter wrong data in mobile",
+        "description": "",
+        "id": "registration-for-online-cooking-school;enter-wrong-data-in-mobile",
+        "after": [
+          {
+            "result": {
+              "duration": 1208700100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 172087900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user enter wrong mobile no",
+            "match": {
+              "location": "StepDefinition.user_enter_wrong_mobile_no()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86299800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "clicks on category",
+            "match": {
+              "location": "StepDefinition.clicks_on_category()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3614500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "alert box pops",
+            "match": {
+              "location": "StepDefinition.alert_box_pops()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8660700,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Handle the Alert",
+            "match": {
+              "location": "StepDefinition.handle_the_alert()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6723337900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user loads the browser and user open the webpage",
+            "match": {
+              "location": "StepDefinition.user_loads_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 44,
+        "name": "All details",
+        "description": "",
+        "id": "registration-for-online-cooking-school;all-details",
+        "after": [
+          {
+            "result": {
+              "duration": 977633800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 140071100,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user enters first name",
+            "match": {
+              "location": "StepDefinition.user_enters_first_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 132337300,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user enters last name",
+            "match": {
+              "location": "StepDefinition.user_enters_last_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 118077600,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "enters valid email",
+            "match": {
+              "location": "StepDefinition.enters_valid_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96995800,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user enters correct mobile no",
+            "match": {
+              "location": "StepDefinition.user_enters_correct_mobile_no()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2320712300,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user select Category as NonVeg",
+            "match": {
+              "location": "StepDefinition.user_select_category_as_nonveg()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115748800,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "city preference as “Mumbai”",
+            "match": {
+              "location": "StepDefinition.city_preference_as_mumbai()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103989700,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Select mode of learning",
+            "match": {
+              "location": "StepDefinition.select_mode_of_learning_as_something()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96819100,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Select interested course duration as “6 months”",
+            "match": {
+              "location": "StepDefinition.select_interested_course_duration_as_6_months()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105022500,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Write meaningful sentence “Your Enquiry”",
+            "match": {
+              "location": "StepDefinition.write_meaningful_sentence_your_enquiry()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12251740200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user loads the browser and user open the webpage",
+            "match": {
+              "location": "StepDefinition.user_loads_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 55,
+        "name": "submission",
+        "description": "",
+        "id": "registration-for-online-cooking-school;submission",
+        "after": [
+          {
+            "result": {
+              "duration": 2084354800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 118171200,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user enters first name",
+            "match": {
+              "location": "StepDefinition.user_enters_first_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125087700,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user enters last name",
+            "match": {
+              "location": "StepDefinition.user_enters_last_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 136788200,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "enters valid email",
+            "match": {
+              "location": "StepDefinition.enters_valid_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101951500,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user enters correct mobile no",
+            "match": {
+              "location": "StepDefinition.user_enters_correct_mobile_no()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 540069100,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user select Category as NonVeg",
+            "match": {
+              "location": "StepDefinition.user_select_category_as_nonveg()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108720100,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "city preference as “Mumbai”",
+            "match": {
+              "location": "StepDefinition.city_preference_as_mumbai()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98835500,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Select mode of learning",
+            "match": {
+              "location": "StepDefinition.select_mode_of_learning_as_something()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100271000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Select interested course duration as “6 months”",
+            "match": {
+              "location": "StepDefinition.select_interested_course_duration_as_6_months()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119063900,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Write meaningful sentence “Your Enquiry”",
+            "match": {
+              "location": "StepDefinition.write_meaningful_sentence_your_enquiry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 306112200,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Click on Enquire Now!",
+            "match": {
+              "location": "StepDefinition.click_on_enquire_now()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5680800,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "alert box pops",
+            "match": {
+              "location": "StepDefinition.alert_box_pops()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6261800,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "verfy alert msg",
+            "match": {
+              "location": "StepDefinition.verfy_alert_msg()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11645700,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "Handle the Alert",
+            "match": {
+              "location": "StepDefinition.handle_the_alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64383400,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "verify the text",
+            "match": {
+              "location": "StepDefinition.verify_the_text()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Registration for online cooking school",
+    "description": "",
+    "id": "registration-for-online-cooking-school",
+    "keyword": "Feature",
+    "uri": "first.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@First"
+      }
+    ]
+  }
+]
