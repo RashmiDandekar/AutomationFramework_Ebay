@@ -11,12 +11,21 @@ public class HomePage
 	private By helpcontact= By.xpath("//a[@href=\"https://ocsnext.ebay.com/ocs/home\"]");
 	private By sell= By.xpath("//a[@href=\"https://www.ebay.com/sl/sell\"]");
 	private By buy= By.xpath("(//a[@href=\"https://www.ebay.com/n/all-categories\"])[3]");
+	private By dropd = By.id("gh-ug");
+	private By signout = By.xpath("//a[@href=\"https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&lgout=1\"]");
 	
 	public HomePage(WebDriver driver)
 	{
 		this.driver= driver;
 	}
-	
+	public void clicksignout()
+	{
+		driver.findElement(signout).click();
+	}
+	public void clickdropd()
+	{
+		driver.findElement(signout).click();
+	}
 	public void clicksignin()
 	{
 		driver.findElement(signin).click();
