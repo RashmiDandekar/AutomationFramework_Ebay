@@ -22,7 +22,7 @@ public class Buypage {
 	 {
 		 driver.findElement(women).click();
 	 }
-	 public void buyBox(String str)
+	 public void buysearchBox(String str)
 		{
 			 driver.findElement(buysearchBox).sendKeys(str);
 		}
