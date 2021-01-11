@@ -12,8 +12,25 @@ public class SigninOrRegister
  private By contiuebut = By.id("signin-continue-btn");
  private By pass= By.id("pass");
  private By signinbut= By.id("sgnBt");
- WebDriver driver;
+ public String tit= "Sign in or Register | eBay";
+ public String Wmgs= "Oops, that's not a match.";
+ private By WmgsLoc= By.id("signin-error-msg");
+ public String Wmgspass= "Oops, that's not a match.";
+ private By WmgspassLoc= By.id("signin-error-msg");
  
+ WebDriver driver;
+ public String getpassmsg()
+ {
+	 return driver.findElement(WmgspassLoc).getText();
+ }
+ public String getwmsg()
+ {
+	 return driver.findElement(WmgsLoc).getText();
+ }
+ public String getTit()
+ {
+	 return driver.getTitle();
+ }
  public SigninOrRegister(WebDriver driver)
  {
 	 this.driver= driver;

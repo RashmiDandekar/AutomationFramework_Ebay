@@ -2,7 +2,7 @@
 Feature: Help and contact
 
 Background:
-  Given user should be on homepage of ebay website
+  Given user should be on homepage of eBay website
 
 Scenario: Check Help & contact option is available
  When Help & Contact is available
@@ -11,13 +11,13 @@ Scenario: Check Help & contact option is available
 
 Scenario: Writing query for Help & Contact
  When user clicks on Help & Contact
- Then Print the title
- And type the query in search box
+ And Print the title
+ Then type the query in search box
  And select the query from list
  And Print the title
 
 Scenario: selecting query in Help & Contact
  When user clicks on Help & Contact
- Then Print the title
- And click the query
+ And Print the title
+ Then click the query
  And Print the title

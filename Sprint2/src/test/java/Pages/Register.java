@@ -11,7 +11,13 @@ public class Register
 	private By pass= By.id("password");
 	private By createaccbut= By.id("EMAIL_REG_FORM_SUBMIT");
 	WebDriver driver;
+	public String ewarn= "Email address is invalid. Please enter a valid email address.";
+	private By ewarnLoc= By.id("Email_err");
 	
+	public String getwarnemail()
+	{
+		return driver.findElement(ewarnLoc).getText();
+	}
 	public Register(WebDriver driver)
 	 {
 		 this.driver= driver;
@@ -39,5 +45,9 @@ public class Register
 			driver.findElement(fname).click();
 		else
 			System.out.println("crate account button is disabled");
+	}
+	public void clickPass()
+	{
+		driver.findElement(pass).click();
 	}
 }
