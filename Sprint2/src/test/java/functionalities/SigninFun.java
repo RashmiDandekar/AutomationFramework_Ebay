@@ -20,7 +20,7 @@ public class SigninFun {
 		HomePage hp= new HomePage(driver);
 		Register r = new Register(driver);
 		hp.clicksignin();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		sr.typeuseroremail("asdf@a.in");
 		sr.clickcontiuebut();
 		Thread.sleep(2000);

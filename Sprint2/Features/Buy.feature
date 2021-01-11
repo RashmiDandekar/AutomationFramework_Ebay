@@ -15,15 +15,13 @@ Feature: Buy the products
 		 And Print the title
 		 And Select the product for Buy option
 		 And Print the title
-		 And Choose and select the product to buy
-     And Add to cart
 		 
 		Scenario Outline: Writing the product name for buy
 		 When User clicks on Buy option
 		 And Print the title
-     Then user <type_product> in search box in Buy option
+     Then user <typeproduct> in search box in Buy option
       Examples:
-       |type_product   |
+       |typeproduct    |
        |Reebok         |
        | Bottle        |
      And click on search Buy option

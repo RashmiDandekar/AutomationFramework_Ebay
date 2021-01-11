@@ -13,11 +13,32 @@ public class HomePage
 	private By buy= By.xpath("(//a[@href=\"https://www.ebay.com/n/all-categories\"])[3]");
 	private By dropd = By.id("gh-ug");
 	private By signout = By.xpath("//a[@href=\"https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&lgout=1\"]");
+	public String dtext = " Daily Deals";
+	public String htext = " Help & Contact";
+	public String stext = " Sell";
+	public String btext = "Buy";
 	
 	public HomePage(WebDriver driver)
 	{
 		this.driver= driver;
 	}
+	public String getbtext()
+	{
+		return driver.findElement(buy).getText();
+	}
+	public String getstext()
+	{
+		return driver.findElement(sell).getText();
+	}
+	public String gethtext()
+	{
+		return driver.findElement(helpcontact).getText();
+	}
+	public String getdtext()
+	{
+		return driver.findElement(dailyd).getText();
+	}
+	
 	public void clicksignout()
 	{
 		driver.findElement(signout).click();
