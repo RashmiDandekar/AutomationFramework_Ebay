@@ -23,9 +23,9 @@ Feature: Buy the products
 		 And Print the title
      Then user <type_product> in search box in Buy option
       Examples:
-       |type_product                                                       |
-       |Reebok BB 4600 FV7352 Mens White Lace Up Basketball Sneakers Shoes |
-       |Georgia. Bottle                                                    |
+       |type_product   |
+       |Reebok         |
+       | Bottle        |
      And click on search Buy option
      And Print the title 
      And Choose and select the product to buy

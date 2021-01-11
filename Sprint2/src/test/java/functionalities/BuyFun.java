@@ -44,13 +44,13 @@ public class BuyFun {
 		AddToCart ac=new AddToCart(driver);
 		hp.clickbuy();
 		
-	    by.buysearchBox("reebook");
+	    by.buysearchBox("Reebok");
 		by.clicksearchbuy();
 		Thread.sleep(200);
 		ss.clickshoe();
 		ac.AddCart();
 		
-		/*by.buysearchBox("bottle");
+		/*by.buysearchBox("Bottle");
 		by.clicksearchbuy();
 		Thread.sleep(200);
 		bt.clickBottle();
