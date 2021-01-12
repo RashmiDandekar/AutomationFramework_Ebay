@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class ShoesShow {
 	WebDriver driver;
-	private By shoe= By.linkText("Reebok DAYTONA DMX MEN'S SHOES Size US 9");
+	private By shoe= By.xpath("(//a[@class='s-item__link'])[2]");
 	
 	
 	public ShoesShow(WebDriver driver)
