@@ -229,7 +229,7 @@ public class StepDefinition
     	else
     		{Thread.sleep(200);
     		bt.clickBottle();}
-		ac.AddCart();
+		
     }
 
     @And("^Add to cart$")
@@ -372,9 +372,9 @@ public class StepDefinition
     	Thread.sleep(2000);
     }
     
-//    @After
-//    public void teardown()
-//    {
-//    	driver.quit();
-//    }
+    @After
+    public void teardown()
+    {
+    	driver.quit();
+    }
 }

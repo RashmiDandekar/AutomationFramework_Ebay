@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="31.430978">
     <testcase classname="Sigining in" name="successful entering email or username" time="31.430978">
         <failure message="cucumber.runtime.AmbiguousStepDefinitionsException: ✽.When enter valid email or username(Features/Signingin.feature:10) matches more than one step definition:&#10;  ^enter (.+)$ in StepDefinition.enter(String)&#10;  ^enter valid email or username$ in StepDefinition.enter_valid_email_or_username()&#10;&#13;&#10;&#9;at cucumber.runtime.RuntimeGlue.stepDefinitionMatch(RuntimeGlue.java:71)&#13;&#10;&#9;at cucumber.runtime.Runtime.runStep(Runtime.java:267)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;&#10;&#9;at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#13;&#10;&#9;at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;&#10;"><![CDATA[Given user should be on homepage of eBay website............................passed
@@ -42,5 +43,35 @@ cucumber.runtime.AmbiguousStepDefinitionsException: ✽.When enter valid email o
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
 ]]></failure>
+=======
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="167.786389">
+    <testcase classname="Buy the products" name="Writing the product name for buy" time="89.21064">
+        <system-out>
+            <![CDATA[Given user should be on homepage of eBay website............................passed
+When User clicks on Buy option..............................................passed
+And Print the title.........................................................passed
+Then user reebok bag in search box in Buy option............................passed
+And click on search Buy option..............................................passed
+And Print the title.........................................................passed
+And Choose and select the product to buy....................................passed
+And Add to cart for buy.....................................................passed
+And Print the title.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Buy the products" name="Writing the product name for buy 2" time="78.575749">
+        <system-out>
+            <![CDATA[Given user should be on homepage of eBay website............................passed
+When User clicks on Buy option..............................................passed
+And Print the title.........................................................passed
+Then user tupperware bottle in search box in Buy option.....................passed
+And click on search Buy option..............................................passed
+And Print the title.........................................................passed
+And Choose and select the product to buy....................................passed
+And Add to cart for buy.....................................................passed
+And Print the title.........................................................passed
+]]>
+        </system-out>
+>>>>>>> branch 'master' of https://github.com/rashmidan/Sprint2
     </testcase>
 </testsuite>
