@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 	,glue={"StepDefinition"}
 	,plugin= {"html:HTML_report/tag1signin","json: JSON_report/tag1signin", "junit: Junit_report/tag1signin"}
 	,tags={"@tag1"}
-			)
+	)
 	public class TestRunner {
 		
 	}

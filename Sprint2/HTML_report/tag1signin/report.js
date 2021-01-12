@@ -33,14 +33,14 @@ formatter.match({
   "location": "StepDefinition.user_should_be_on_homepage_of_eBay_website()"
 });
 formatter.result({
-  "duration": 21868989800,
+  "duration": 51157669700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_clicks_sign_in()"
 });
 formatter.result({
-  "duration": 10941866900,
+  "duration": 30352536800,
   "status": "passed"
 });
 formatter.scenario({
