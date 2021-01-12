@@ -5,6 +5,5 @@ Feature: Continue with google
 
   Scenario: Successful login with google
   When user clicks Sign in
-  And sign in or register page will open
-  Then user clicks continue with google option
-
+  And Print the title
+  

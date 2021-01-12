@@ -13,7 +13,6 @@ Feature: Sell
      And user click list an item
      And  user <typeproduct> in Sell search box
      Then click go
-     And click on sell one like this
      And Print the title
 		 Examples:
          |typeproduct     |

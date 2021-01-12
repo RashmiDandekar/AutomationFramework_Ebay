@@ -112,7 +112,26 @@ formatter.match({
   "location": "StepDefinition.user_should_be_on_homepage_of_eBay_website()"
 });
 formatter.result({
+<<<<<<< HEAD
+  "duration": 51157669700,
+=======
+<<<<<<< HEAD
+  "duration": 8324652300,
+>>>>>>> branch 'master' of https://github.com/rashmidan/Sprint2
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.user_clicks_sign_in()"
+});
+formatter.result({
+<<<<<<< HEAD
+  "duration": 30352536800,
+=======
+  "duration": 23106326200,
+=======
   "duration": 46751791300,
+>>>>>>> branch 'master' of https://github.com/rashmidan/Sprint2
+>>>>>>> branch 'master' of https://github.com/rashmidan/Sprint2
   "status": "passed"
 });
 formatter.scenario({
