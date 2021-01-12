@@ -1,95 +1,120 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="390.68993">
-    <testcase classname="Continue with google" name="Successful login with google" time="109.3017">
-        <system-out>
-            <![CDATA[Given user should be on homepage of eBay website............................passed
-When user clicks Sign in....................................................passed
-And sign in or register page will open......................................passed
-Then user clicks continue with google option................................passed
-]]>
-        </system-out>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="13" time="229.975732">
+    <testcase classname="Buy the products" name="Check Buy option is available" time="9.789752">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When Buy option is available................................................passed
+Then print the text of Buy option...........................................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Sell" name="Check Sell option is available" time="19.62709">
-        <system-out>
-            <![CDATA[Given user should be on homepage of eBay website............................passed
+    <testcase classname="Buy the products" name="Selecting the Buy option" time="20.197134">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When User clicks on Buy option..............................................passed
+And Print the title.........................................................passed
+Then Select the Category for Buy option.....................................passed
+And Print the title.........................................................passed
+And Select the product for Buy option.......................................passed
+And Print the title.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Buy the products" name="Writing the product name for buy" time="28.749791">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When User clicks on Buy option..............................................passed
+And Print the title.........................................................passed
+Then user reebok bag in search box in Buy option............................passed
+And click on search Buy option..............................................passed
+And Print the title.........................................................passed
+And Choose and select the product to buy....................................passed
+And Add to cart for buy.....................................................passed
+And Print the title.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Buy the products" name="Writing the product name for buy 2" time="26.115668">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When User clicks on Buy option..............................................passed
+And Print the title.........................................................passed
+Then user tupperware bottle in search box in Buy option.....................passed
+And click on search Buy option..............................................passed
+And Print the title.........................................................passed
+And Choose and select the product to buy....................................passed
+And Add to cart for buy.....................................................passed
+And Print the title.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Continue with google" name="Successful login with google" time="21.565148">
+        <failure message="junit.framework.ComparisonFailure: expected:&lt;[Sign in or Register | eBay]&gt; but was:&lt;[Unable To Identify Your Browser]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at StepDefinition.StepDefinition.sign_in_or_register_page_will_open(StepDefinition.java:251)&#13;&#10;&#9;at ✽.And sign in or register page will open(Features/ContinueWithGoogle.feature:8)&#13;&#10;"><![CDATA[Given user should be on homepage of eBay website............................passed
+When user clicks Sign in....................................................passed
+And sign in or register page will open......................................failed
+Then user clicks continue with google option................................skipped
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[Sign in or Register | eBay]> but was:<[Unable To Identify Your Browser]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at StepDefinition.StepDefinition.sign_in_or_register_page_will_open(StepDefinition.java:251)
+	at ✽.And sign in or register page will open(Features/ContinueWithGoogle.feature:8)
+]]></failure>
+    </testcase>
+    <testcase classname="Daily Deals" name="Check Dailydeals button" time="8.52512">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When Check dailydeals option is available...................................passed
+Then print the text of Daily Deals option...................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Daily Deals" name="Selecting the Daily Deals" time="21.529099">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When User clicks on Daily Deals option......................................passed
+And Print the title.........................................................passed
+Then Select the Category for Daily Deals option.............................passed
+And Print the title.........................................................passed
+And Select first product for Dailydeals.....................................passed
+And Add to cart.............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help and contact" name="Check Help &amp; contact option is available" time="10.356868">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When Help & Contact is available............................................passed
+Then print the text of Help and contact option..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help and contact" name="Writing query for Help &amp; Contact" time="18.647299">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When user clicks on Help & Contact..........................................passed
+And Print the title.........................................................passed
+Then type the query in search box...........................................passed
+And select the query from list..............................................passed
+And Print the title.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help and contact" name="selecting query in Help &amp; Contact" time="15.288566">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When user clicks on Help & Contact..........................................passed
+And Print the title.........................................................passed
+Then click the query........................................................passed
+And Print the title.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sell" name="Check Sell option is available" time="8.812441">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
 When Sell option is available...............................................passed
 Then print the text of sell option..........................................passed
-]]>
-        </system-out>
+]]></system-out>
     </testcase>
-    <testcase classname="Sell" name="Selecting the sell option" time="60.421989">
-        <failure message="org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer&#10;  (Session info: chrome=87.0.4280.88)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-MIJ45EA', ip: '192.168.43.230', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\SONY\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54796}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 51d909b5af9207868985322459589a2c&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#13;&#10;&#9;at Pages.ListAnItempage.clickgo(ListAnItempage.java:19)&#13;&#10;&#9;at StepDefinition.StepDefinition.click_go(StepDefinition.java:187)&#13;&#10;&#9;at ✽.Then click go(Features/Sell.feature:15)&#13;&#10;">
-            <![CDATA[Given user should be on homepage of eBay website............................passed
+    <testcase classname="Sell" name="Selecting the sell option" time="19.247788">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
 When user clicks sell option................................................passed
 And user click list an item.................................................passed
 And user laptop in Sell search box..........................................passed
-Then click go...............................................................failed
-And click on sell one like this.............................................skipped
-And Print the title.........................................................skipped
-
-StackTrace:
-org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer
-  (Session info: chrome=87.0.4280.88)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-MIJ45EA', ip: '192.168.43.230', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\SONY\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54796}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 51d909b5af9207868985322459589a2c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at Pages.ListAnItempage.clickgo(ListAnItempage.java:19)
-	at StepDefinition.StepDefinition.click_go(StepDefinition.java:187)
-	at ✽.Then click go(Features/Sell.feature:15)
-]]>
-        </failure>
+Then click go...............................................................passed
+And Print the title.........................................................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Sell" name="Selecting the sell option 2" time="201.339151">
-        <failure message="org.openqa.selenium.WebDriverException: chrome not reachable&#10;  (Session info: chrome=87.0.4280.88)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-MIJ45EA', ip: '192.168.43.230', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\SONY\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54956}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: c72c433477ebba24a72181696bca5844&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;TOPINVITATION&quot;]/div/div/div[2]/a/span}&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at Pages.Sellpage.list_an_item(Sellpage.java:17)&#13;&#10;&#9;at StepDefinition.StepDefinition.user_click_list_an_item(StepDefinition.java:101)&#13;&#10;&#9;at ✽.And user click list an item(Features/Sell.feature:13)&#13;&#10;">
-            <![CDATA[Given user should be on homepage of eBay website............................passed
+    <testcase classname="Sell" name="Selecting the sell option 2" time="21.151058">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
 When user clicks sell option................................................passed
-And user click list an item.................................................failed
-And user watches in Sell search box.........................................skipped
-Then click go...............................................................skipped
-And click on sell one like this.............................................skipped
-And Print the title.........................................................skipped
-
-StackTrace:
-org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=87.0.4280.88)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-MIJ45EA', ip: '192.168.43.230', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\SONY\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54956}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c72c433477ebba24a72181696bca5844
-*** Element info: {Using=xpath, value=//*[@id="TOPINVITATION"]/div/div/div[2]/a/span}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at Pages.Sellpage.list_an_item(Sellpage.java:17)
-	at StepDefinition.StepDefinition.user_click_list_an_item(StepDefinition.java:101)
-	at ✽.And user click list an item(Features/Sell.feature:13)
-]]>
-        </failure>
+And user click list an item.................................................passed
+And user watches in Sell search box.........................................passed
+Then click go...............................................................passed
+And Print the title.........................................................passed
+]]></system-out>
     </testcase>
 </testsuite>
