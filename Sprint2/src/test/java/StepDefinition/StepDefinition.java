@@ -229,7 +229,7 @@ public class StepDefinition
     	else
     		{Thread.sleep(200);
     		bt.clickBottle();}
-		ac.AddCart();
+		
     }
 
     @And("^Add to cart$")
@@ -247,6 +247,7 @@ public class StepDefinition
     @And("^sign in or register page will open$")
     public void sign_in_or_register_page_will_open() throws Throwable {
         sr = new SigninOrRegister(driver);
+        Thread.sleep(10000);
     	Assert.assertEquals(sr.tit, sr.getTit());
     }
 
@@ -372,9 +373,9 @@ public class StepDefinition
     	Thread.sleep(2000);
     }
     
-//    @After
-//    public void teardown()
-//    {
-//    	driver.quit();
-//    }
+    @After
+    public void teardown()
+    {
+    	driver.quit();
+    }
 }

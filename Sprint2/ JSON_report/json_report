@@ -1,0 +1,1392 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8641383000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should be on homepage of eBay website",
+            "match": {
+              "location": "StepDefinition.user_should_be_on_homepage_of_eBay_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Check Buy option is available",
+        "description": "",
+        "id": "buy-the-products;check-buy-option-is-available",
+        "after": [
+          {
+            "result": {
+              "duration": 1032895700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 90630800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Buy option is available",
+            "match": {
+              "location": "StepDefinition.buy_option_is_available()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24842900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "print the text of Buy option",
+            "match": {
+              "location": "StepDefinition.print_the_text_of_buy_option()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7201498500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should be on homepage of eBay website",
+            "match": {
+              "location": "StepDefinition.user_should_be_on_homepage_of_eBay_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Selecting the Buy option",
+        "description": "",
+        "id": "buy-the-products;selecting-the-buy-option",
+        "after": [
+          {
+            "result": {
+              "duration": 1321357600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5048126700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on Buy option",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_buy_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8403300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Print the title",
+            "match": {
+              "location": "StepDefinition.print_the_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108261600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Select the Category for Buy option",
+            "match": {
+              "location": "StepDefinition.select_the_category_for_buy_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19365500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Print the title",
+            "match": {
+              "location": "StepDefinition.print_the_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6481118600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Select the product for Buy option",
+            "match": {
+              "location": "StepDefinition.select_the_product_for_buy_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9001900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Print the title",
+            "match": {
+              "location": "StepDefinition.print_the_title()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7872633300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should be on homepage of eBay website",
+            "match": {
+              "location": "StepDefinition.user_should_be_on_homepage_of_eBay_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Writing the product name for buy",
+        "description": "",
+        "id": "buy-the-products;writing-the-product-name-for-buy;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1218034100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2385501000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on Buy option",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_buy_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19067400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Print the title",
+            "match": {
+              "location": "StepDefinition.print_the_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152582000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user reebok bag in search box in Buy option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reebok bag",
+                  "offset": 5
+                }
+              ],
+              "location": "StepDefinition.user_in_search_box_in_buy_option(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2820507200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "click on search Buy option",
+            "match": {
+              "location": "StepDefinition.click_on_search_buy_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7344100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Print the title",
+            "match": {
+              "location": "StepDefinition.print_the_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5677163100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Choose and select the product to buy",
+            "match": {
+              "location": "StepDefinition.choose_and_select_the_product_to_buy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8581474100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Add to cart for buy",
+            "match": {
+              "location": "StepDefinition.add_to_cart_for_buy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15484300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Print the title",
+            "match": {
+              "location": "StepDefinition.print_the_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Buy"
+          },
+          {
+            "line": 18,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7366667000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should be on homepage of eBay website",
+            "match": {
+              "location": "StepDefinition.user_should_be_on_homepage_of_eBay_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Writing the product name for buy",
+        "description": "",
+        "id": "buy-the-products;writing-the-product-name-for-buy;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1136660300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1803196500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on Buy option",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_buy_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12781000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Print the title",
+            "match": {
+              "location": "StepDefinition.print_the_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184174600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user tupperware bottle in search box in Buy option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tupperware bottle",
+                  "offset": 5
+                }
+              ],
+              "location": "StepDefinition.user_in_search_box_in_buy_option(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2766882000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "click on search Buy option",
+            "match": {
+              "location": "StepDefinition.click_on_search_buy_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12318200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Print the title",
+            "match": {
+              "location": "StepDefinition.print_the_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5924537900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Choose and select the product to buy",
+            "match": {
+              "location": "StepDefinition.choose_and_select_the_product_to_buy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6899452900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Add to cart for buy",
+            "match": {
+              "location": "StepDefinition.add_to_cart_for_buy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8997300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Print the title",
+            "match": {
+              "location": "StepDefinition.print_the_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Buy"
+          },
+          {
+            "line": 18,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Buy the products",
+    "description": "",
+    "id": "buy-the-products",
+    "keyword": "Feature",
+    "uri": "Features/Buy.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Buy"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8222302200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should be on homepage of eBay website",
+            "match": {
+              "location": "StepDefinition.user_should_be_on_homepage_of_eBay_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Successful login with google",
+        "description": "",
+        "id": "continue-with-google;successful-login-with-google",
+        "after": [
+          {
+            "result": {
+              "duration": 1135504900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2191113900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks Sign in",
+            "match": {
+              "location": "StepDefinition.user_clicks_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10016226900,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Sign in or Register | eBay]\u003e but was:\u003c[Unable To Identify Your Browser]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat StepDefinition.StepDefinition.sign_in_or_register_page_will_open(StepDefinition.java:251)\r\n\tat ✽.And sign in or register page will open(Features/ContinueWithGoogle.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "sign in or register page will open",
+            "match": {
+              "location": "StepDefinition.sign_in_or_register_page_will_open()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user clicks continue with google option",
+            "match": {
+              "location": "StepDefinition.user_clicks_continue_with_google_option()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Continue with google",
+    "description": "",
+    "id": "continue-with-google",
+    "keyword": "Feature",
+    "uri": "Features/ContinueWithGoogle.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Continue_with_google"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7482863500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be on homepage of eBay website",
+            "match": {
+              "location": "StepDefinition.user_should_be_on_homepage_of_eBay_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Check Dailydeals button",
+        "description": "",
+        "id": "daily-deals;check-dailydeals-button",
+        "after": [
+          {
+            "result": {
+              "duration": 945955800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 66289000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Check dailydeals option is available",
+            "match": {
+              "location": "StepDefinition.check_dailydeals_option_is_available()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30011800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "print the text of Daily Deals option",
+            "match": {
+              "location": "StepDefinition.print_the_text_of_daily_deals_option()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8216060200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be on homepage of eBay website",
+            "match": {
+              "location": "StepDefinition.user_should_be_on_homepage_of_eBay_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Selecting the Daily Deals",
+        "description": "",
+        "id": "daily-deals;selecting-the-daily-deals",
+        "after": [
+          {
+            "result": {
+              "duration": 1056041500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5066815500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on Daily Deals option",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_daily_deals_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11849000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Print the title",
+            "match": {
+              "location": "StepDefinition.print_the_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79196500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Select the Category for Daily Deals option",
+            "match": {
+              "location": "StepDefinition.select_the_category_for_daily_deals_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6571400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Print the title",
+            "match": {
+              "location": "StepDefinition.print_the_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6986786900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Select first product for Dailydeals",
+            "match": {
+              "location": "StepDefinition.select_first_product_for_dailydeals()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105777700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Add to cart",
+            "match": {
+              "location": "StepDefinition.add_to_cart()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Daily Deals",
+    "description": "",
+    "id": "daily-deals",
+    "keyword": "Feature",
+    "uri": "Features/Dailydeals.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Daily_deals"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9244682200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be on homepage of eBay website",
+            "match": {
+              "location": "StepDefinition.user_should_be_on_homepage_of_eBay_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Check Help \u0026 contact option is available",
+        "description": "",
+        "id": "help-and-contact;check-help-\u0026-contact-option-is-available",
+        "after": [
+          {
+            "result": {
+              "duration": 980978600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 96213300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Help \u0026 Contact is available",
+            "match": {
+              "location": "StepDefinition.help_contact_is_available()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34993800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "print the text of Help and contact option",
+            "match": {
+              "location": "StepDefinition.print_the_text_of_help_and_contact_option()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8916590100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be on homepage of eBay website",
+            "match": {
+              "location": "StepDefinition.user_should_be_on_homepage_of_eBay_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Writing query for Help \u0026 Contact",
+        "description": "",
+        "id": "help-and-contact;writing-query-for-help-\u0026-contact",
+        "after": [
+          {
+            "result": {
+              "duration": 1345751900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5825028500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on Help \u0026 Contact",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_help_contact()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9690700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Print the title",
+            "match": {
+              "location": "StepDefinition.print_the_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193130300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "type the query in search box",
+            "match": {
+              "location": "StepDefinition.type_the_query_in_search_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2342410500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "select the query from list",
+            "match": {
+              "location": "StepDefinition.select_the_query_from_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14696500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Print the title",
+            "match": {
+              "location": "StepDefinition.print_the_title()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6932829200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be on homepage of eBay website",
+            "match": {
+              "location": "StepDefinition.user_should_be_on_homepage_of_eBay_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "selecting query in Help \u0026 Contact",
+        "description": "",
+        "id": "help-and-contact;selecting-query-in-help-\u0026-contact",
+        "after": [
+          {
+            "result": {
+              "duration": 1183132900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5473283600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks on Help \u0026 Contact",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_help_contact()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11649200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Print the title",
+            "match": {
+              "location": "StepDefinition.print_the_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1674337200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "click the query",
+            "match": {
+              "location": "StepDefinition.click_the_query()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13333900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Print the title",
+            "match": {
+              "location": "StepDefinition.print_the_title()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Help and contact",
+    "description": "",
+    "id": "help-and-contact",
+    "keyword": "Feature",
+    "uri": "Features/HelpAndContact.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Help_And_Contact"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7737763600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be on homepage of eBay website",
+            "match": {
+              "location": "StepDefinition.user_should_be_on_homepage_of_eBay_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Check Sell option is available",
+        "description": "",
+        "id": "sell;check-sell-option-is-available",
+        "after": [
+          {
+            "result": {
+              "duration": 931237100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 122867100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Sell option is available",
+            "match": {
+              "location": "StepDefinition.sell_option_is_available()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20573300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "print the text of sell option",
+            "match": {
+              "location": "StepDefinition.print_the_text_of_sell_option()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7449439600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be on homepage of eBay website",
+            "match": {
+              "location": "StepDefinition.user_should_be_on_homepage_of_eBay_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Selecting the sell option",
+        "description": "",
+        "id": "sell;selecting-the-sell-option;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1265986000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2050613900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks sell option",
+            "match": {
+              "location": "StepDefinition.user_clicks_sell_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2969081700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click list an item",
+            "match": {
+              "location": "StepDefinition.user_click_list_an_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116564200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user laptop in Sell search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "laptop",
+                  "offset": 5
+                }
+              ],
+              "location": "StepDefinition.user_in_sell_search_box(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5382228600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click go",
+            "match": {
+              "location": "StepDefinition.click_go()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13874200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Print the title",
+            "match": {
+              "location": "StepDefinition.print_the_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Sell"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7569661100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be on homepage of eBay website",
+            "match": {
+              "location": "StepDefinition.user_should_be_on_homepage_of_eBay_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Selecting the sell option",
+        "description": "",
+        "id": "sell;selecting-the-sell-option;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1150974000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2448001000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks sell option",
+            "match": {
+              "location": "StepDefinition.user_clicks_sell_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2629014100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click list an item",
+            "match": {
+              "location": "StepDefinition.user_click_list_an_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125699900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user watches in Sell search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "watches",
+                  "offset": 5
+                }
+              ],
+              "location": "StepDefinition.user_in_sell_search_box(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7218020100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click go",
+            "match": {
+              "location": "StepDefinition.click_go()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9687700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Print the title",
+            "match": {
+              "location": "StepDefinition.print_the_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Sell"
+          }
+        ]
+      }
+    ],
+    "name": "Sell",
+    "description": "",
+    "id": "sell",
+    "keyword": "Feature",
+    "uri": "Features/Sell.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Sell"
+      }
+    ]
+  }
+]

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="13" time="229.975732">
+    <testcase classname="Buy the products" name="Check Buy option is available" time="9.789752">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When Buy option is available................................................passed
+Then print the text of Buy option...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Buy the products" name="Selecting the Buy option" time="20.197134">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When User clicks on Buy option..............................................passed
+And Print the title.........................................................passed
+Then Select the Category for Buy option.....................................passed
+And Print the title.........................................................passed
+And Select the product for Buy option.......................................passed
+And Print the title.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Buy the products" name="Writing the product name for buy" time="28.749791">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When User clicks on Buy option..............................................passed
+And Print the title.........................................................passed
+Then user reebok bag in search box in Buy option............................passed
+And click on search Buy option..............................................passed
+And Print the title.........................................................passed
+And Choose and select the product to buy....................................passed
+And Add to cart for buy.....................................................passed
+And Print the title.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Buy the products" name="Writing the product name for buy 2" time="26.115668">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When User clicks on Buy option..............................................passed
+And Print the title.........................................................passed
+Then user tupperware bottle in search box in Buy option.....................passed
+And click on search Buy option..............................................passed
+And Print the title.........................................................passed
+And Choose and select the product to buy....................................passed
+And Add to cart for buy.....................................................passed
+And Print the title.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Continue with google" name="Successful login with google" time="21.565148">
+        <failure message="junit.framework.ComparisonFailure: expected:&lt;[Sign in or Register | eBay]&gt; but was:&lt;[Unable To Identify Your Browser]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at StepDefinition.StepDefinition.sign_in_or_register_page_will_open(StepDefinition.java:251)&#13;&#10;&#9;at ✽.And sign in or register page will open(Features/ContinueWithGoogle.feature:8)&#13;&#10;"><![CDATA[Given user should be on homepage of eBay website............................passed
+When user clicks Sign in....................................................passed
+And sign in or register page will open......................................failed
+Then user clicks continue with google option................................skipped
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[Sign in or Register | eBay]> but was:<[Unable To Identify Your Browser]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at StepDefinition.StepDefinition.sign_in_or_register_page_will_open(StepDefinition.java:251)
+	at ✽.And sign in or register page will open(Features/ContinueWithGoogle.feature:8)
+]]></failure>
+    </testcase>
+    <testcase classname="Daily Deals" name="Check Dailydeals button" time="8.52512">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When Check dailydeals option is available...................................passed
+Then print the text of Daily Deals option...................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Daily Deals" name="Selecting the Daily Deals" time="21.529099">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When User clicks on Daily Deals option......................................passed
+And Print the title.........................................................passed
+Then Select the Category for Daily Deals option.............................passed
+And Print the title.........................................................passed
+And Select first product for Dailydeals.....................................passed
+And Add to cart.............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help and contact" name="Check Help &amp; contact option is available" time="10.356868">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When Help & Contact is available............................................passed
+Then print the text of Help and contact option..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help and contact" name="Writing query for Help &amp; Contact" time="18.647299">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When user clicks on Help & Contact..........................................passed
+And Print the title.........................................................passed
+Then type the query in search box...........................................passed
+And select the query from list..............................................passed
+And Print the title.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help and contact" name="selecting query in Help &amp; Contact" time="15.288566">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When user clicks on Help & Contact..........................................passed
+And Print the title.........................................................passed
+Then click the query........................................................passed
+And Print the title.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sell" name="Check Sell option is available" time="8.812441">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When Sell option is available...............................................passed
+Then print the text of sell option..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sell" name="Selecting the sell option" time="19.247788">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When user clicks sell option................................................passed
+And user click list an item.................................................passed
+And user laptop in Sell search box..........................................passed
+Then click go...............................................................passed
+And Print the title.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sell" name="Selecting the sell option 2" time="21.151058">
+        <system-out><![CDATA[Given user should be on homepage of eBay website............................passed
+When user clicks sell option................................................passed
+And user click list an item.................................................passed
+And user watches in Sell search box.........................................passed
+Then click go...............................................................passed
+And Print the title.........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -15,6 +15,7 @@ Feature: Buy the products
 		And Select the product for Buy option
 		And Print the title
 		 
+		 @tag1
 		Scenario Outline: Writing the product name for buy
 		When User clicks on Buy option
 		And Print the title
