@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 	@CucumberOptions(
-	features = "Features/HelpAndContact.feature"
+	features = "Features/DailyDeals.feature"
 	,glue={"StepDefinition"}
 	)
 	public class TestRunner {
