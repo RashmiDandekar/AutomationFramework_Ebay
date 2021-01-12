@@ -95,7 +95,7 @@ public class StepDefinition
         Assert.assertEquals(hp.stext, hp.getstext());
     }
 
-    @When("^user click list an item$")
+    @And("^user click list an item$")
     public void user_click_list_an_item() throws Throwable {
     	sp= new Sellpage(driver);
     	sp.list_an_item();
@@ -107,10 +107,16 @@ public class StepDefinition
     	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		hp.clicksignin();
     }
-
+    @When("^user clicks sell option$")
+    public void user_clicks_sell_option() throws Throwable {
+    	hp= new HomePage(driver);
+    	hp.clicksell();
+    }
+    
     @When("^enter valid email or username$")
     public void enter_valid_email_or_username() throws Throwable {
     	sr= new SigninOrRegister(driver);
+    	Thread.sleep(2000);
     	sr.typeuseroremail("raj.r@g.in");
     }
 
@@ -177,7 +183,9 @@ public class StepDefinition
     @Then("^click go$")
     public void click_go() throws Throwable {
     	laip=new ListAnItempage(driver);
+    	Thread.sleep(3000);
     	laip.clickgo();
+    	
     }
 
     @Then("^user clicks Switch account$")
@@ -215,11 +223,13 @@ public class StepDefinition
     	ss=new ShoesShow(driver);
     	ac=new AddToCart(driver);
     	bt=new Bottle(driver);
-    	if(driver.getTitle()=="Reebok | eBay")
-    		ss.clickshoe();
-    	else if(driver.getTitle()=="Bottle | eBay")
-    		bt.clickBottle();
-		ac.AddCart();
+    	if(driver.getTitle()=="reebok bag | eBay")
+    		{Thread.sleep(2000);
+    		ss.clickshoe();}
+    	else
+    		{Thread.sleep(200);
+    		bt.clickBottle();}
+		
     }
 
     @And("^Add to cart$")
@@ -274,6 +284,7 @@ public class StepDefinition
     @And("^click on sell one like this$")
     public void click_on_sell_one_like_this() throws Throwable {
     	syip=new Sellyouritempage(driver);
+    	syip.pop();
     	syip.sellonelikethis();
     }
 
@@ -353,6 +364,14 @@ public class StepDefinition
     public void print_the_title() throws Throwable {
         System.out.println(driver.getTitle());
     }
+    @And("^Add to cart for buy$")
+    public void add_to_cart_for_buy() throws Throwable {
+    	ac=new AddToCart(driver);
+    	Thread.sleep(2000);
+    	ac.AddCart();
+    	Thread.sleep(2000);
+    }
+    
     @After
     public void teardown()
     {

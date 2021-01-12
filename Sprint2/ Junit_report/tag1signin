@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="167.786389">
+    <testcase classname="Buy the products" name="Writing the product name for buy" time="89.21064">
+        <system-out>
+            <![CDATA[Given user should be on homepage of eBay website............................passed
+When User clicks on Buy option..............................................passed
+And Print the title.........................................................passed
+Then user reebok bag in search box in Buy option............................passed
+And click on search Buy option..............................................passed
+And Print the title.........................................................passed
+And Choose and select the product to buy....................................passed
+And Add to cart for buy.....................................................passed
+And Print the title.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Buy the products" name="Writing the product name for buy 2" time="78.575749">
+        <system-out>
+            <![CDATA[Given user should be on homepage of eBay website............................passed
+When User clicks on Buy option..............................................passed
+And Print the title.........................................................passed
+Then user tupperware bottle in search box in Buy option.....................passed
+And click on search Buy option..............................................passed
+And Print the title.........................................................passed
+And Choose and select the product to buy....................................passed
+And Add to cart for buy.....................................................passed
+And Print the title.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,432 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 75590273500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should be on homepage of eBay website",
+            "match": {
+              "location": "StepDefinition.user_should_be_on_homepage_of_eBay_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Successful login with google",
+        "description": "",
+        "id": "continue-with-google;successful-login-with-google",
+        "after": [
+          {
+            "result": {
+              "duration": 2122675200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31191623200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks Sign in",
+            "match": {
+              "location": "StepDefinition.user_clicks_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44946900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "sign in or register page will open",
+            "match": {
+              "location": "StepDefinition.sign_in_or_register_page_will_open()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 352181300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks continue with google option",
+            "match": {
+              "location": "StepDefinition.user_clicks_continue_with_google_option()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Continue with google",
+    "description": "",
+    "id": "continue-with-google",
+    "keyword": "Feature",
+    "uri": "Features/ContinueWithGoogle.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Continue_with_google"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18202426200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be on homepage of eBay website",
+            "match": {
+              "location": "StepDefinition.user_should_be_on_homepage_of_eBay_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Check Sell option is available",
+        "description": "",
+        "id": "sell;check-sell-option-is-available",
+        "after": [
+          {
+            "result": {
+              "duration": 1317260200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 64238300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Sell option is available",
+            "match": {
+              "location": "StepDefinition.sell_option_is_available()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43165200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "print the text of sell option",
+            "match": {
+              "location": "StepDefinition.print_the_text_of_sell_option()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16736168600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be on homepage of eBay website",
+            "match": {
+              "location": "StepDefinition.user_should_be_on_homepage_of_eBay_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Selecting the sell option",
+        "description": "",
+        "id": "sell;selecting-the-sell-option;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1651981000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11053358300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks sell option",
+            "match": {
+              "location": "StepDefinition.user_clicks_sell_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7928962800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click list an item",
+            "match": {
+              "location": "StepDefinition.user_click_list_an_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1949036200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user laptop in Sell search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "laptop",
+                  "offset": 5
+                }
+              ],
+              "location": "StepDefinition.user_in_sell_search_box(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21102482500,
+              "error_message": "org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer\n  (Session info: chrome\u003d87.0.4280.88)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-MIJ45EA\u0027, ip: \u0027192.168.43.230\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\SONY\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54796}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 51d909b5af9207868985322459589a2c\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat Pages.ListAnItempage.clickgo(ListAnItempage.java:19)\r\n\tat StepDefinition.StepDefinition.click_go(StepDefinition.java:187)\r\n\tat ✽.Then click go(Features/Sell.feature:15)\r\n",
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "click go",
+            "match": {
+              "location": "StepDefinition.click_go()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "click on sell one like this",
+            "match": {
+              "location": "StepDefinition.click_on_sell_one_like_this()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Print the title",
+            "match": {
+              "location": "StepDefinition.print_the_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Sell"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 178952132700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be on homepage of eBay website",
+            "match": {
+              "location": "StepDefinition.user_should_be_on_homepage_of_eBay_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Selecting the sell option",
+        "description": "",
+        "id": "sell;selecting-the-sell-option;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 6348272900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4005652500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks sell option",
+            "match": {
+              "location": "StepDefinition.user_clicks_sell_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12033093200,
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d87.0.4280.88)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-MIJ45EA\u0027, ip: \u0027192.168.43.230\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\SONY\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54956}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c72c433477ebba24a72181696bca5844\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"TOPINVITATION\"]/div/div/div[2]/a/span}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat Pages.Sellpage.list_an_item(Sellpage.java:17)\r\n\tat StepDefinition.StepDefinition.user_click_list_an_item(StepDefinition.java:101)\r\n\tat ✽.And user click list an item(Features/Sell.feature:13)\r\n",
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "user click list an item",
+            "match": {
+              "location": "StepDefinition.user_click_list_an_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user watches in Sell search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "watches",
+                  "offset": 5
+                }
+              ],
+              "location": "StepDefinition.user_in_sell_search_box(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "click go",
+            "match": {
+              "location": "StepDefinition.click_go()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "click on sell one like this",
+            "match": {
+              "location": "StepDefinition.click_on_sell_one_like_this()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Print the title",
+            "match": {
+              "location": "StepDefinition.print_the_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Sell"
+          }
+        ]
+      }
+    ],
+    "name": "Sell",
+    "description": "",
+    "id": "sell",
+    "keyword": "Feature",
+    "uri": "Features/Sell.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Sell"
+      }
+    ]
+  }
+]

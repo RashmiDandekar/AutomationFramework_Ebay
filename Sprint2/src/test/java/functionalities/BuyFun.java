@@ -44,17 +44,18 @@ public class BuyFun {
 		AddToCart ac=new AddToCart(driver);
 		hp.clickbuy();
 		
-		/*by.buysearchBox("Reebok");
+		by.buysearchBox("Reebok bag");
 		by.clicksearchbuy();
 		Thread.sleep(200);
 		ss.clickshoe();
-		ac.AddCart();*/
-		
-		by.buysearchBox("Bottle");
-		by.clicksearchbuy();
-		Thread.sleep(200);
-		bt.clickBottle();
 		ac.AddCart();
+		driver.close();
+		
+//		by.buysearchBox("tupperware bottle");
+//		by.clicksearchbuy();
+//		Thread.sleep(200);
+//		bt.clickBottle();
+//		ac.AddCart();
 		
 }
 }

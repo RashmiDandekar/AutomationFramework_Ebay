@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Sellpage {
 	WebDriver driver;
-	private By list_an_item= By.xpath("//a[@href=\"/sl/prelist/suggest\"]");
+	private By list_an_item= By.xpath("//*[@id=\"TOPINVITATION\"]/div/div/div[2]/a/span");
 	
 	public Sellpage(WebDriver driver)
 	{
